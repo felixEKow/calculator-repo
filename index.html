@@ -11,59 +11,68 @@
 	<div class="container">
 		<div class="contain">
 			
-				<span id="numberOne" class="numDisplay">0</span>
+				<span id="numberOne" class="numDisplay"></span>
 				<span id="numberTwo" class="numDisplay"></span>
+				<span id="numbersSumDisplay" class="numDisplay">0</span>
 			</div>
 		<div class="rows">
 
-			<button id="" type="button" class="col-md-3 greys">AC</button>
-			<button id="" type="button" class="col-md-3 greys">+/-</button>
-			<button id="" type="button" class="col-md-3 greys">%</button>
+			<button id="" type="button" class="col-lg-3 col-md-3 col-sm-3  greys">AC</button>
+			<button id="" type="button" class="col-lg-3 col-md-3 col-sm-3  greys">+/-</button>
+			<button id="" type="button" class="col-lg-3 col-md-3 col-sm-3  greys">%</button>
 
-			<button class="col-md-3 oranges" type="button" id="divideBtn">/</button>
+			<button class="col-lg-3 col-md-3 col-sm-3  oranges" type="button" id="divideBtn" onclick="divide()">
+				/
+			</button>
 		</div>
 
 		<div class="rows">
 
-			<button id="numBtn" type="button" class="col-md-3 greys">7</button>
-			<button id="numBtn" type="button" class="col-md-3 greys">8</button>
-			<button id="numBtn" type="button" class="col-md-3 greys">9</button>
+			<button id="numBtn" type="button" class="col-lg-3 col-md-3 col-sm-3 greys">7</button>
+			<button id="numBtn" type="button" class="col-lg-3 col-md-3 col-sm-3  greys">8</button>
+			<button id="numBtn" type="button" class="col-lg-3 col-md-3 col-sm-3  greys">9</button>
 
-			<button class="col-md-3 oranges" type="button" id="multiplyBtn">x</button>
+			<button class="col-lg-3 col-md-3 col-sm-3  oranges" type="button" id="multiplyBtn" onclick="multiply()">
+				x
+			</button>
 		</div>
 
 		<div class="rows">
 
-			<button id="numBtn" type="button" class="col-md-3 greys">4</button>
-			<button id="numBtn" type="button" class="col-md-3 greys">5</button>
-			<button id="numBtn" type="button" class="col-md-3 greys">6</button>
+			<button id="numBtn" type="button" class="col-lg-3 col-md-3 col-sm-3  greys">4</button>
+			<button id="numBtn" type="button" class="col-lg-3 col-md-3 col-sm-3  greys">5</button>
+			<button id="numBtn" type="button" class="col-lg-3 col-md-3 col-sm-3  greys">6</button>
 
-			<button class="col-md-3 oranges" type="button" id="subtractBtn">-</button>
+			<button class="col-lg-3 col-md-3 col-sm-3  oranges" type="button" id="subtractBtn" onclick="minus()">
+				-
+			</button>
 		</div>
 
 		<div class="rows">
 
-			<button id="numBtn" type="button" class="col-md-3 greys">1</button>
-			<button id="numBtn" type="button" class="col-md-3 greys">2</button>
-			<button id="numBtn" type="button" class="col-md-3 greys">3</button>
+			<button id="numBtn" type="button" class="col-lg-3 col-md-3 col-sm-3  greys">1</button>
+			<button id="numBtn" type="button" class="col-lg-3 col-md-3 col-sm-3  greys">2</button>
+			<button id="numBtn" type="button" class="col-lg-3 col-md-3 col-sm-3  greys">3</button>
 
-			<button class="col-md-3 oranges" type="button" id="addBtn">+</button>
+			<button class="col-lg-3 col-md-3 col-sm-3  oranges" type="button" id="addBtn" onclick="plus()">
+				+
+			</button>
 
 		</div>
 		<div class="rows">
 
-			<button id="numBtn" type="button" class="col-md-6 greys">0</button>
+			<button id="numBtn" type="button" class="col-lg-6 col-md-6 col-sm-6  greys">0</button>
 
-			<button type="button" class="col-md-3 greys">.</button>
+			<button type="button" class="col-lg-3 col-md-3 col-sm-3  greys">.</button>
 
 
-			<button class="col-md-3 oranges" type="button" id="NumbersSum">=</button>
+			<button class="col-lg-3 col-md-3 col-sm-3  oranges" type="button" id="numbersSum">=</button>
 		</div>
 
 	</div>
 
 		<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="./js/script.js"></script>
 </body>
 
 </html>
